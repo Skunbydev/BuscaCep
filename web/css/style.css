@@ -1,0 +1,168 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111111;
+    background: #464660;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  ul,
+  p,
+  blockquote,
+  dd {
+    margin: 0px;
+  }
+  
+  ul {
+    padding: 0px;
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-bg {
+    background-color: #4F4D5C;
+    width: auto;
+    height: 120px;
+  }
+
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+.header-controls {
+    flex-wrap: wrap;
+    gap: 20px;
+    display: flex;
+}
+
+.header-controls a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 24px;
+}
+
+.header-controls a:hover {
+    color: #ffffff;
+}
+
+.mid-content h1 {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.mid-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-content {
+    margin-top: 120px;
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.mid-content h1 {
+    color: #1E2675;
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: monospace;
+    
+}
+
+
+
+
+.input-search {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.input-search span {
+    margin-right: 115px;
+    margin-bottom: 10px;
+    color: #6A6A6A;
+    display: block;
+   
+    
+    
+}
+
+.input-search input {
+    width: 250px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    text-align: center;
+    background: #E8E8E8;
+}
+
+.input-search input:focus{
+    outline: none;
+    border: 1px solid #1E2675;  
+}
+
+.mid-content-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+
+
+.mid-content-buttons button {
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #1E2675;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: monospace;
+    cursor: pointer;
+}
+
+.mid-content-buttons button:hover {
+    background-color: #4F4D5C;
+}
+
+
+
+
+.input-search .none {
+    display: none;
+}
+
