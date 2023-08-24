@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buscar-Cep 2023</title>
+    <title>Busca Cep 2023</title>
     <link rel="stylesheet" href="./web/css/style.css">
+    <link rel="shortcut icon" href="./web/img/logo.svg" type="image/x-icon">
 </head>
 
 <body>
@@ -32,8 +33,7 @@
             <div class="input-search">
                 <span>Digite o cep abaixo</span>
                 <input type="text" name="cep" id="cep" placeholder="00000-000">
-                <span class="none">oi</span>
-
+                <span class="correct-cep">Por favor, digite o cep correto.</span>
                 <div class="mid-content-buttons">
                     <button id="btn-search">Buscar</button>
                     <button id="btn-limpar">Limpar</button>
@@ -41,6 +41,27 @@
             </div>
         </div>
     </div>
+
+
+    <div class="mid-content-container disable ">
+        <div class="mid-content">
+            <h1>Cep encontrado!</h1>
+            <div class="input-search-active">
+                <span>Logradouro</span>
+                <input type="text" name="logradouro" id="logradouro" placeholder="Logradouro">
+                <span>Bairro</span>
+                <input type="text" name="bairro" id="bairro" placeholder="Bairro">
+                <span>Cidade</span>
+                <input type="text" name="cidade" id="cidade" placeholder="Cidade">
+                <span>Estado</span>
+                <input type="text" name="estado" id="estado" placeholder="Estado">
+            </div>
+            <div class="mid-content-buttom">
+                <button id="btn-back">Voltar</button>
+            </div>
+        </div>
+    </div>
+
 
 
     <script src="./web/scripts/script.js"></script>
